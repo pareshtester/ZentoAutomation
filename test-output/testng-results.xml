@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[=====Zento API=====]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="1369" started-at="2020-07-23T12:39:10 IST" finished-at="2020-07-23T12:39:11 IST">
+    <groups>
+    </groups>
+    <test name="Test22" duration-ms="1369" started-at="2020-07-23T12:39:10 IST" finished-at="2020-07-23T12:39:11 IST">
+      <class name="TestCases.GetApiTest">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:TestCases.GetApiTest@797badd3]" name="startReport" is-config="true" duration-ms="360" started-at="2020-07-23T12:39:10 IST" finished-at="2020-07-23T12:39:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="ulsetup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCases.GetApiTest@797badd3]" name="ulsetup" is-config="true" duration-ms="10" started-at="2020-07-23T12:39:10 IST" finished-at="2020-07-23T12:39:10 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://gdata.zento.in/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://15.206.202.218:81/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://gdataadmin.zento.in/]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[https://gdata.zento.in/]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[https://gdata.zento.in/vendor_login.aspx]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[http://15.206.202.218:80/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ulsetup -->
+        <test-method status="PASS" signature="steps(java.lang.String)[pri:0, instance:TestCases.GetApiTest@797badd3]" name="steps" is-config="true" duration-ms="0" started-at="2020-07-23T12:39:10 IST" finished-at="2020-07-23T12:39:10 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lechler]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- steps -->
+        <test-method status="PASS" signature="testSteps(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCases.GetApiTest@797badd3]" name="testSteps" duration-ms="979" started-at="2020-07-23T12:39:10 IST" data-provider="Login1" finished-at="2020-07-23T12:39:11 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ExceedAmount/CalculateBalanceAmountToAddClaim]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2061]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Zento123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2067]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Zento123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Travel]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[lechler]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Zento API=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testSteps -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.GetApiTest@797badd3]" name="getResult" is-config="true" duration-ms="1" started-at="2020-07-23T12:39:11 IST" finished-at="2020-07-23T12:39:11 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSteps status=SUCCESS method=GetApiTest.testSteps(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCases.GetApiTest@797badd3] output======Zento API=====]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="close()[pri:0, instance:TestCases.GetApiTest@797badd3]" name="close" is-config="true" duration-ms="0" started-at="2020-07-23T12:39:11 IST" finished-at="2020-07-23T12:39:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:TestCases.GetApiTest@797badd3]" name="endReport" is-config="true" duration-ms="338" started-at="2020-07-23T12:39:11 IST" finished-at="2020-07-23T12:39:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- TestCases.GetApiTest -->
+    </test> <!-- Test22 -->
+  </suite> <!-- Suite -->
+</testng-results>

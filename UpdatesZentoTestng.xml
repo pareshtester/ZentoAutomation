@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+  <test name="Test1">
+       <parameter name="browserName" value="chrome"></parameter>
+    <classes>
+           <class name="TestCases.DraftFoodExpense"/>
+    </classes>
+  </test>
+   <test name="Test2">
+       <parameter name="browserName" value="chrome"></parameter>
+    <classes>
+           <class name="TestCases.DraftHotelExpense"/>
+    </classes>
+  </test>
+  
+   <test name="Test4">
+       <parameter name="browserName" value="chrome"></parameter>
+    <classes>
+           <class name="TestCases.DraftLocalexpense"/>
+    </classes>
+  </test>
+   <test name="Test5">
+       <parameter name="browserName" value="chrome"></parameter>
+    <classes>
+           <class name="TestCases.DraftMobileExpense"/>
+    </classes>
+  </test>
+   <test name="Test6">
+       <parameter name="browserName" value="chrome"></parameter>
+    <classes>
+           <class name="TestCases.DraftOthersExpense"/>
+    </classes>
+  </test>
+   <test name="Test7">
+       <parameter name="browserName" value="chrome"></parameter>
+    <classes>
+           <class name="TestCases.DraftTravelexpense"/>
+    </classes>
+  </test>
+  
+  
+ 
+  </suite> <!-- Suite -->

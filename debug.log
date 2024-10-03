@@ -1,0 +1,91 @@
+[0823/165204.062:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0824/144600.827:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0907/154833.520:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0907/155043.555:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0917/110701.500:ERROR:scoped_process_suspend.cc(31)] NtSuspendProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0917/110701.543:ERROR:process_info.cc(118)] ReadProcessMemory bool __cdecl crashpad::(anonymous namespace)::ReadStruct(HANDLE, crashpad::WinVMAddress, T *) [T = crashpad::process_types::RTL_USER_PROCESS_PARAMETERS<crashpad::process_types::internal::Traits64>]: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0917/110701.543:ERROR:process_info.cc(545)] ReadProcessData failed
+[0917/110701.546:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0917/110701.546:ERROR:exception_snapshot_win.cc(88)] thread ID 0 not found in process
+[0924/175626.224:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0924/175626.262:ERROR:exception_snapshot_win.cc(88)] thread ID 13196 not found in process
+[0925/143707.069:ERROR:process_reader_win.cc(182)] ResumeThread: The parameter is incorrect. (0x57)
+[0925/143707.105:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0925/143707.105:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0925/143707.105:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0925/143707.105:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0925/143707.105:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0925/143707.105:ERROR:process_reader_win.cc(123)] NtOpenThread: An invalid Client ID was specified. (0xc000000b)
+[0925/143707.105:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0925/143707.105:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0925/143707.105:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0925/143707.105:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0925/143707.105:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0925/143707.105:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0925/143707.105:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0925/143707.105:ERROR:exception_snapshot_win.cc(88)] thread ID 11932 not found in process
+[0925/145236.529:ERROR:scoped_process_suspend.cc(31)] NtSuspendProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0925/145236.544:ERROR:process_info.cc(118)] ReadProcessMemory bool __cdecl crashpad::(anonymous namespace)::ReadStruct(HANDLE, crashpad::WinVMAddress, T *) [T = crashpad::process_types::PEB<crashpad::process_types::internal::Traits64>]: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0925/145236.544:ERROR:process_info.cc(545)] ReadProcessData failed
+[0925/145236.544:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7fee6f954d0 of 12 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0925/145236.544:WARNING:process_snapshot_win.cc(69)] ReadMemory ExceptionInformation failed
+[0925/145807.737:ERROR:scoped_process_suspend.cc(31)] NtSuspendProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0925/145807.738:ERROR:process_info.cc(118)] ReadProcessMemory bool __cdecl crashpad::(anonymous namespace)::ReadStruct(HANDLE, crashpad::WinVMAddress, T *) [T = crashpad::process_types::PEB<crashpad::process_types::internal::Traits64>]: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0925/145807.738:ERROR:process_info.cc(545)] ReadProcessData failed
+[0925/145807.738:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7fee6f954d0 of 12 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0925/145807.738:WARNING:process_snapshot_win.cc(69)] ReadMemory ExceptionInformation failed
+[0925/163947.138:ERROR:process_reader_win.cc(182)] ResumeThread: The parameter is incorrect. (0x57)
+[0925/163947.139:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0925/163947.139:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0925/163947.139:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0925/163947.139:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0925/163947.139:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0925/163947.139:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0925/163947.139:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0925/163947.139:ERROR:process_reader_win.cc(123)] NtOpenThread: An invalid Client ID was specified. (0xc000000b)
+[0925/163947.139:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0925/163947.139:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0925/163947.139:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0925/163947.139:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0925/163947.139:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0925/163947.139:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0925/163947.139:ERROR:exception_snapshot_win.cc(88)] thread ID 9652 not found in process
+[0925/164217.247:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0925/164217.248:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0925/164217.248:ERROR:exception_snapshot_win.cc(88)] thread ID 9164 not found in process
+[0926/120952.720:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0926/131432.646:ERROR:process_reader_win.cc(182)] ResumeThread: The parameter is incorrect. (0x57)
+[0926/131432.647:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0926/131432.647:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0926/131432.647:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0926/131432.647:ERROR:process_reader_win.cc(123)] NtOpenThread: An invalid Client ID was specified. (0xc000000b)
+[0926/131432.647:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0926/131432.647:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0926/131432.647:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0926/131432.647:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0926/131432.647:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0926/131432.647:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0926/131432.647:ERROR:exception_snapshot_win.cc(88)] thread ID 9348 not found in process
+[0108/164333.741:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0108/164333.755:ERROR:exception_snapshot_win.cc(88)] thread ID 11988 not found in process
+[0109/120353.390:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0109/120353.461:ERROR:exception_snapshot_win.cc(88)] thread ID 16492 not found in process
+[0109/120353.461:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0109/123322.012:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0109/123322.013:ERROR:exception_snapshot_win.cc(88)] thread ID 8908 not found in process
+[0110/110838.413:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0110/110838.414:ERROR:exception_snapshot_win.cc(88)] thread ID 9076 not found in process
+[0110/115308.789:ERROR:scoped_process_suspend.cc(31)] NtSuspendProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0110/115308.799:ERROR:process_info.cc(118)] ReadProcessMemory bool __cdecl crashpad::(anonymous namespace)::ReadStruct(HANDLE, crashpad::WinVMAddress, T *) [T = crashpad::process_types::PEB<crashpad::process_types::internal::Traits64>]: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0110/115308.799:ERROR:process_info.cc(545)] ReadProcessData failed
+[0110/115308.799:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7feec8a64d0 of 12 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0110/115308.799:WARNING:process_snapshot_win.cc(69)] ReadMemory ExceptionInformation failed
+[0110/120227.827:ERROR:scoped_process_suspend.cc(31)] NtSuspendProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0110/120227.829:ERROR:process_info.cc(118)] ReadProcessMemory bool __cdecl crashpad::(anonymous namespace)::ReadStruct(HANDLE, crashpad::WinVMAddress, T *) [T = crashpad::process_types::PEB<crashpad::process_types::internal::Traits64>]: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0110/120227.829:ERROR:process_info.cc(545)] ReadProcessData failed
+[0110/120227.829:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7feec8a64d0 of 12 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0110/120227.829:WARNING:process_snapshot_win.cc(69)] ReadMemory ExceptionInformation failed
+[0110/120844.707:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0110/120844.708:ERROR:exception_snapshot_win.cc(88)] thread ID 10976 not found in process
+[0504/105634.013:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0726/130026.331:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports

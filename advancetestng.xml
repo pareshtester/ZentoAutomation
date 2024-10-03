@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+   <test name="Test8">
+      <parameter name="browserName" value="chrome"></parameter>
+ <parameter name="domainName" value="lechler"></parameter>
+    <classes>
+           <class name="TestCases.AdvanceSettled"/>
+    </classes>
+ 
+  </test>
+  
+   <test name="Test1">
+      <parameter name="browserName" value="chrome"></parameter>
+ <parameter name="domainName" value="lechler"></parameter>
+    <classes>
+           <class name="TestCases.AdvanceApprovalProcess"/>
+    </classes>
+ 
+  </test>
+  
+   <test name="Test2">
+      <parameter name="browserName" value="chrome"></parameter>
+ <parameter name="domainName" value="lechler"></parameter>
+    <classes>
+           <class name="TestCases.ApplyAdvance"/>
+    </classes>
+ 
+  </test>
+  
+   <test name="Test3">
+      <parameter name="browserName" value="chrome"></parameter>
+ <parameter name="domainName" value="lechler"></parameter>
+    <classes>
+           <class name="TestCases.EditAdvanceClaim"/>
+    </classes>
+ 
+  </test>
+  
+   <test name="Test4">
+      <parameter name="browserName" value="chrome"></parameter>
+ <parameter name="domainName" value="lechler"></parameter>
+    <classes>
+           <class name="TestCases.DeleteAdvanceClaim"/>
+    </classes>
+ 
+  </test>
+  
+   <test name="Test5">
+      <parameter name="browserName" value="chrome"></parameter>
+ <parameter name="domainName" value="lechler"></parameter>
+    <classes>
+           <class name="TestCases.ReopenAdvanceClaim"/>
+    </classes>
+ 
+  </test>
+  
+   
+ 
+ 
+  
+  
+  
+ 
+  </suite> <!-- Suite -->

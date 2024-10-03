@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+       
+  <listeners>
+        <listener class-name="TestData.EnvReaderListener"/>
+    </listeners>
+     <parameter name="Siteurl" value="http://192.168.1.102:90/"></parameter>
+      <parameter name="BaseURL" value="http://192.168.1.102:81"></parameter>
+        <parameter name="AdminUrl" value="http://192.168.1.102:91/default.aspx"></parameter>
+            <parameter name="VendorapprovalUrl" value="http://192.168.1.102:90/"></parameter>
+           <parameter name="vendorURL" value="http://192.168.1.102:90/vendor_login.aspx"></parameter>
+              <parameter name="postBaseURL" value="http://192.168.1.102:80/"></parameter>
+               <parameter name="domainName" value="Redchillies"></parameter>
+ <test name="Test1">
+       <parameter name="browserName" value="chrome"></parameter>
+      
+    <classes>
+           <class name="TestCases.RedChilliesApplyTravel"/>
+    </classes>
+  </test>
+  
+   <test name="Test2">
+       <parameter name="browserName" value="chrome"></parameter>
+      
+    <classes>
+           <class name="TestCases.RedchilliesTravelApprovalprocess"/>
+    </classes>
+  </test>
+   <test name="Test3">
+       <parameter name="browserName" value="chrome"></parameter>
+       
+    <classes>
+           <class name="TestCases.EditRedchilliesTravelClaim"/>
+    </classes>
+  </test>
+   <test name="Test4">
+       <parameter name="browserName" value="chrome"></parameter>
+    
+    <classes>
+           <class name="TestCases.DeleteRedchilliesTravelClaim"/>
+    </classes>
+  </test>
+   <test name="Test5">
+       <parameter name="browserName" value="chrome"></parameter>
+        
+    <classes>
+           <class name="TestCases.ReopenRedchilliesTravelclaim"/>
+    </classes>
+     </test>
+     <test name="Test6">
+       <parameter name="browserName" value="chrome"></parameter>
+      
+    <classes>
+           <class name="TestCases.RedchilliesApplyFoodclaim"/>
+    </classes>
+  </test>
+   <test name="Test7">
+       <parameter name="browserName" value="chrome"></parameter>
+       
+    <classes>
+           <class name="TestCases.RedchilliesfoodCopartenerApprovalProcess"/>
+    </classes>
+  </test>
+   <test name="Test8">
+       <parameter name="browserName" value="chrome"></parameter>
+     
+    <classes>
+           <class name="TestCases.RedchilliesfoodManagerApprovalProcess"/>
+    </classes>
+  </test>
+   <test name="Test9">
+       <parameter name="browserName" value="chrome"></parameter>
+     
+    <classes>
+           <class name="TestCases.EditRedchilliesfoodexpense"/>
+    </classes>
+  </test>
+   <test name="Test10">
+       <parameter name="browserName" value="chrome"></parameter>
+      
+    <classes>
+           <class name="TestCases.RedchilliesDeleteFoodExpense"/>
+    </classes>
+  </test>
+  
+  
+  <test name="Test11">
+       <parameter name="browserName" value="chrome"></parameter>
+    
+    <classes>
+           <class name="TestCases.RedchilliesReopenFoodArtist"/>
+    </classes>
+  </test>
+  
+  
+  
+  
+  
+  
+    </suite>   <!-- Suite -->

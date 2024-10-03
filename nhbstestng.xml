@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+     
+  
+  <test name="Test1">
+       <parameter name="browserName" value="chrome"></parameter>
+    <classes>
+           <class name="TestCases.DraftFoodExpense"/>
+    </classes>
+  </test>
+   <test name="Test2">
+       <parameter name="browserName" value="chrome"></parameter>
+    <classes>
+           <class name="TestCases.DraftHotelExpense"/>
+    </classes>
+  </test>
+   
+   <test name="Test4">
+       <parameter name="browserName" value="chrome"></parameter>
+    <classes>
+           <class name="TestCases.DraftLocalexpense"/>
+    </classes>
+  </test>
+   <test name="Test5">
+       <parameter name="browserName" value="chrome"></parameter>
+    <classes>
+           <class name="TestCases.DraftMobileExpense"/>
+    </classes>
+  </test>
+   <test name="Test6">
+       <parameter name="browserName" value="chrome"></parameter>
+    <classes>
+           <class name="TestCases.DraftOthersExpense"/>
+    </classes>
+  </test>
+   <test name="Test7">
+       <parameter name="browserName" value="chrome"></parameter>
+    <classes>
+           <class name="TestCases.DraftTravelexpense"/>
+    </classes>
+  </test>
+ 
+   <test name="Test8">
+       <parameter name="browserName" value="chrome"></parameter>
+    <classes>
+           <class name="TestCases.EditFoodExpense"/>
+    </classes>
+  </test>
+   <test name="Test9">
+       <parameter name="browserName" value="chrome"></parameter>
+    <classes>
+           <class name="TestCases.EditHotelExpense"/>
+    </classes>
+  </test>
+   
+   <test name="Test11">
+       <parameter name="browserName" value="chrome"></parameter>
+    <classes>
+           <class name="TestCases.EditLocalClaim"/>
+    </classes>
+  </test>
+   <test name="Test12">
+       <parameter name="browserName" value="chrome"></parameter>
+    <classes>
+           <class name="TestCases.EditMobileClaim"/>
+    </classes>
+  </test>
+   <test name="Test13">
+       <parameter name="browserName" value="chrome"></parameter>
+    <classes>
+           <class name="TestCases.EditOtherExpense"/>
+    </classes>
+  </test>
+   <test name="Test14">
+       <parameter name="browserName" value="chrome"></parameter>
+    <classes>
+           <class name="TestCases.EditTravelClaim"/>
+    </classes>
+  </test>
+  
+    <test name="Test15">
+       <parameter name="browserName" value="chrome"></parameter>
+    <classes>
+           <class name="TestCases.DeleteFoodExpense"/>
+    </classes>
+  </test>
+   <test name="Test16">
+       <parameter name="browserName" value="chrome"></parameter>
+    <classes>
+           <class name="TestCases.DeleteHotelExpense"/>
+    </classes>
+  </test>
+   
+   <test name="Test18">
+       <parameter name="browserName" value="chrome"></parameter>
+    <classes>
+           <class name="TestCases.DeleteLocalExpense"/>
+    </classes>
+  </test>
+   <test name="Test19">
+       <parameter name="browserName" value="chrome"></parameter>
+    <classes>
+           <class name="TestCases.DeleteMobileExpense"/>
+    </classes>
+  </test>
+   <test name="Test20">
+       <parameter name="browserName" value="chrome"></parameter>
+    <classes>
+           <class name="TestCases.DeleteOtherExpense"/>
+    </classes>
+  </test>
+   <test name="Test21">
+       <parameter name="browserName" value="chrome"></parameter>
+    <classes>
+           <class name="TestCases.DeleteTravelExpense"/>
+    </classes>
+  </test>
+  
+   <test name="Test22">
+       <parameter name="browserName" value="chrome"></parameter>
+    <classes>
+           <class name="TestCases.SubmitFoodExpense"/>
+    </classes>
+  </test>
+   <test name="Test23">
+       <parameter name="browserName" value="chrome"></parameter>
+    <classes>
+           <class name="TestCases.SubmitHotelExpense"/>
+    </classes>
+  </test>
+  
+   <test name="Test25">
+       <parameter name="browserName" value="chrome"></parameter>
+    <classes>
+           <class name="TestCases.SubmitLocalExpense"/>
+    </classes>
+  </test>
+   <test name="Test26">
+       <parameter name="browserName" value="chrome"></parameter>
+    <classes>
+           <class name="TestCases.SubmitMobileExpense"/>
+    </classes>
+  </test>
+   <test name="Test27">
+       <parameter name="browserName" value="chrome"></parameter>
+    <classes>
+           <class name="TestCases.SubmitOtherExpense"/>
+    </classes>
+  </test>
+   <test name="Test28">
+       <parameter name="browserName" value="chrome"></parameter>
+    <classes>
+           <class name="TestCases.SubmitTravelExpense"/>
+    </classes>
+  </test>
+  
+   <test name="Test29">
+       <parameter name="browserName" value="chrome"></parameter>
+    <classes>
+           <class name="TestCases.ApproveFoodExpense"/>
+    </classes>
+  </test>
+   <test name="Test30">
+       <parameter name="browserName" value="chrome"></parameter>
+    <classes>
+           <class name="TestCases.ApproveHotelExpense"/>
+    </classes>
+  </test>
+  
+   <test name="Test32">
+       <parameter name="browserName" value="chrome"></parameter>
+    <classes>
+           <class name="TestCases.ApproveLocalExpense"/>
+    </classes>
+  </test>
+   <test name="Test33">
+       <parameter name="browserName" value="chrome"></parameter>
+    <classes>
+           <class name="TestCases.ApproveMobileExpense"/>
+    </classes>
+  </test>
+   <test name="Test34">
+       <parameter name="browserName" value="chrome"></parameter>
+    <classes>
+           <class name="TestCases.ApproveOtherExpense"/>
+    </classes>
+  </test>
+   <test name="Test35">
+       <parameter name="browserName" value="chrome"></parameter>
+    <classes>
+           <class name="TestCases.ApproveTravelExpense"/>
+    </classes>
+  </test>
+  
+    <test name="Test36">
+       <parameter name="browserName" value="chrome"></parameter>
+    <classes>
+           <class name="TestCases.ReopenFoodExpense"/>
+    </classes>
+  </test>
+   <test name="Test37">
+       <parameter name="browserName" value="chrome"></parameter>
+    <classes>
+           <class name="TestCases.ReopenHotelExpense"/>
+    </classes>
+  </test>
+ 
+   <test name="Test39">
+       <parameter name="browserName" value="chrome"></parameter>
+    <classes>
+           <class name="TestCases.ReopenLocalClaim"/>
+    </classes>
+  </test>
+   <test name="Test40">
+       <parameter name="browserName" value="chrome"></parameter>
+    <classes>
+           <class name="TestCases.ReopenMobileExpense"/>
+    </classes>
+  </test>
+   <test name="Test41">
+       <parameter name="browserName" value="chrome"></parameter>
+    <classes>
+           <class name="TestCases.ReopenOtherClaim"/>
+    </classes>
+  </test>
+   <test name="Test42">
+       <parameter name="browserName" value="chrome"></parameter>
+    <classes>
+           <class name="TestCases.ReopenTravelClaim"/>
+    </classes>
+  </test>
+ <!-- 
+  --> 
+</suite> <!-- Suite -->

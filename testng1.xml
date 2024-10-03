@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+<listeners>
+        <listener class-name="TestData.EnvReaderListener"/>
+    </listeners>
+     <parameter name="Siteurl" value="https://fulcrum.zento.in/"></parameter>
+      <parameter name="BaseURL" value="https://webapi.zento.in/"></parameter>
+        <parameter name="AdminUrl" value="https://fulcrumadmin.zento.in/"></parameter>
+            <parameter name="VendorapprovalUrl" value="https://gdata.zento.in/"></parameter>
+           <parameter name="vendorURL" value="https://gdata.zento.in/vendor_login.aspx"></parameter>
+              <parameter name="postBaseURL" value="https://zentoapi.zento.in/"></parameter>
+               <parameter name="domainName" value="Fulcrum"></parameter>
+  <parameter name="domainName" value="Fulcrum"></parameter>
+   <test name="Test1">
+      <parameter name="browserName" value="chrome"></parameter>
+    <classes>
+           <class name="TestCases.ApproveEstimationActivity"/>
+    </classes>
+ 
+  </test>
+  
+  
+  
+    </suite>   <!-- Suite -->

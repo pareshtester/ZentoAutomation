@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+    
+ 
+ <test name="Test22">
+     <parameter name="domainName" value="gdata"></parameter>
+       <parameter name="browserName" value="chrome"></parameter>
+       
+    <classes>
+           <class name="TestCases.API_Test"/>
+    </classes>
+  </test>
+ 
+  
+  
+  
+    </suite>   <!-- Suite -->

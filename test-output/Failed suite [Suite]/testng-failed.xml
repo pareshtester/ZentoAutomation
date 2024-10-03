@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Suite]]">
+  <test thread-count="5" name="Test22(failed)(failed)">
+    <parameter name="domainName" value="Redchillies"/>
+    <parameter name="browserName" value="chrome"/>
+    <parameter name="email" value="paresh.patil@gdata.in"/>
+    <classes>
+      <class name="TestCases.ReopenRedchilliesTravelclaim">
+        <methods>
+          <include name="startReport"/>
+          <include name="testSteps"/>
+          <include name="endReport"/>
+          <include name="closebrowser"/>
+          <include name="close"/>
+          <include name="getResult"/>
+          <include name="steps"/>
+        </methods>
+      </class> <!-- TestCases.ReopenRedchilliesTravelclaim -->
+    </classes>
+  </test> <!-- Test22(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->
